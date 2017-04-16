@@ -1,3 +1,9 @@
+[漂泊者乐园](http://www.beautifullover.org) 精选图书
+
+v1.0.0
+
+
+
 Pro JavaScript Development: Coding, Capabilities and Tooling
 ============================================================
 By Den Odell
@@ -10,4 +16,4 @@ http://www.apress.com/9781430262688
 
 Pro JavaScript Development is for front-end web developers who are experienced at building web pages with HTML, CSS, and JavaScript, and wish to advance their JavaScript skills to a higher level.
 
-These source code files support the book "Pro JavaScript Development: Coding, Capabilities & Tooling" by Den Odell, published by Apress. The latest version can be found online at https://github.com/denodell/pro-javascript-development
+These source code files support the book "Pro JavaScript Development: Coding, Capabilities & Tooling" by Den Odell, published by Apress. The latest version can be found online at [https://github.com/denodell/pro-javascript-development](https://github.com/denodell/pro-javascript-development)
