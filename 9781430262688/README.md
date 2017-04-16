@@ -1,6 +1,8 @@
 [漂泊者乐园](http://www.beautifullover.org) 精选图书
 
-v1.0.0
+v1.1.0
+
+[01-Object-Oriented JavaScript](01-Object-Oriented JavaScript)
 
 
 
