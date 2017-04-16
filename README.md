@@ -1,6 +1,7 @@
 [漂泊者乐园](http://www.beautifullover.org) 精选图书
 
-v1.1.0
+v1.1.1
+
 [本书源码](9781430262688)
 # Apress Source Code
 
