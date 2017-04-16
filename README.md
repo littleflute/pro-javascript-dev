@@ -1,7 +1,7 @@
 [漂泊者乐园](http://www.beautifullover.org) 精选图书
 
-v1.0.0
-
+v1.1.0
+[本书源码](9781430262688)
 # Apress Source Code
 
 This repository accompanies [*Pro JavaScript Development*](http://www.apress.com/9781430262688) by Den Odell (Apress, 2014).
