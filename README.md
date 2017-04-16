@@ -1,3 +1,6 @@
+[漂泊者乐园]（http://www.beautifullover.org） 精选图书
+v0.0.2
+
 # Apress Source Code
 
 This repository accompanies [*Pro JavaScript Development*](http://www.apress.com/9781430262688) by Den Odell (Apress, 2014).
