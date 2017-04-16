@@ -1,4 +1,7 @@
-v0.0.1
+v0.1.0
+javascript test
+
+```js
 
 var house = {
     rooms: 7,
@@ -22,3 +25,4 @@ house.floors = 2;
 
 // Read out the ‘rooms’ property again – notice it has now changed
 alert(house.rooms); // 8
+```
