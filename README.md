@@ -1,5 +1,6 @@
-[漂泊者乐园]（http://www.beautifullover.org） 精选图书
-v0.0.2
+[漂泊者乐园](http://www.beautifullover.org) 精选图书
+
+v1.0.0
 
 # Apress Source Code
 
