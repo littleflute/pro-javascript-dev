@@ -1,4 +1,4 @@
-v0.4.1<br>
+v0.5.1<br>
 [..](..)<br>
 
 Chapter01 [Chapter02](Chapter02) [Chapter03](Chapter03) [Chapter04](Chapter05) [Chapter02](Chapter05) [Chapter06](Chapter06)    
@@ -111,5 +111,35 @@ Accommodation.prototype.alarm = function() {};
 // The existing object instance gains the new method automatically
 house.alarm();
 ```
+<div style="border:1px red solid;">Listing1-5.js</div>
+```
+// Variable declared outside of any function is in global scope and available to access anywhere
+var myLibrary = {
+    myName: "Dennis"
+};
 
+function doSomething() {
+    // Variable declared within a function is not accessible outside that function
+    var innerVariable = 123;
+
+    // The global variable is accessible from within the function
+    myLibrary.myName = "Hello";
+
+    function doSomethingElse() {
+        // Variables declared in a surrounding scope are accessible
+        innerVariable = 1234;
+    }
+
+    doSomethingElse();
+
+    alert(innerVariable); // 1234
+}
+
+doSomething();
+
+// This property was overridden within the doSomething function
+alert(myLibrary.myName); // "Hello"
+
+// Trying to access a variable declared within a function from outside results in an error
+alert(innerVariable); // ERROR!
 ```
