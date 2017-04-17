@@ -1,7 +1,14 @@
-v0.5.1<br>
+v0.6.1<br>
 [..](..)<br>
 
 Chapter01 [Chapter02](Chapter02) [Chapter03](Chapter03) [Chapter04](Chapter05) [Chapter02](Chapter05) [Chapter06](Chapter06)    
+
+
+<style>
+span.highlight {
+    background-color: yellow;
+}
+</style>
 
 Listing1-1.js
 ```js
@@ -143,3 +150,32 @@ alert(myLibrary.myName); // "Hello"
 // Trying to access a variable declared within a function from outside results in an error
 alert(innerVariable); // ERROR!
 ```
+<span class="highlight">Listing1-6.js</span>
+```js
+// Outside of any function, ‘this’ represents the global ‘window’ object
+alert(this === window); // true
+
+// Because the doSomething function is called outside of an object, the keyword this adopts
+// the global JavaScript window object in the browser.
+function doSomething() {
+    alert(this === window); // true
+}
+
+doSomething();
+
+var house = {
+    floors: 2,
+    isLocked: false,
+    lock: function() {
+        alert(this === house); // true, as the this keyword represents the object containing this method
+
+        // We can treat ‘this’ as equivalent to the ‘house’ object, including using dot notation
+        this.isLocked = true;
+    }
+};
+
+house.lock();
+
+alert(house.isLocked); // true
+```
+
