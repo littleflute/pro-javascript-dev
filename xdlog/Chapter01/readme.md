@@ -1,4 +1,4 @@
-v2.6.12<br>
+v2.6.13<br>
 [..](..)<br>
 
 Chapter01 [Chapter02](Chapter02) [Chapter03](Chapter03) [Chapter04](Chapter05) [Chapter02](Chapter05) [Chapter06](Chapter06)    
@@ -189,7 +189,8 @@ function myFunction() {
      
     document.getElementsByTagName("h1")[0].innerHTML = "Chapter 01";
 }
-//myFunction();
+
+
 </script>
 
 
