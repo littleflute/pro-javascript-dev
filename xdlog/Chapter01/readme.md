@@ -1,4 +1,4 @@
-v2.6.11<br>
+v2.6.12<br>
 [..](..)<br>
 
 Chapter01 [Chapter02](Chapter02) [Chapter03](Chapter03) [Chapter04](Chapter05) [Chapter02](Chapter05) [Chapter06](Chapter06)    
@@ -180,15 +180,13 @@ alert(house.isLocked); // true
 ```
 
  
- <button onclick="myFunction()">Try it</button>
+ <button onclick="myFunction()">Try it 1</button>
 <script>
 function myFunction() {
     var x = document.getElementById("header");
     x.getElementsByClassName("fork")[0].style.backgroundColor = "yellow";
-    x.getElementsByClassName("fork")[0].style.border = "1px solid red";
-    
-    var y = document.getElementById("title");
-    y.getElementsByTagName("H1")[0].innerHTML = "Chapter01";
+    x.getElementsByClassName("fork")[0].style.border = "1px solid red"; 
+     
     document.getElementsByTagName("h1")[0].innerHTML = "Chapter 01";
 }
 //myFunction();
