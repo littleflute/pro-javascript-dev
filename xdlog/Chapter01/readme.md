@@ -1,4 +1,4 @@
-v2.6.9<br>
+v2.6.10<br>
 [..](..)<br>
 
 Chapter01 [Chapter02](Chapter02) [Chapter03](Chapter03) [Chapter04](Chapter05) [Chapter02](Chapter05) [Chapter06](Chapter06)    
@@ -179,8 +179,8 @@ house.lock();
 alert(house.isLocked); // true
 ```
 
-
- <button onclick="myFunction()">xdtest</button>
+ 
+ <button onclick="myFunction()">Try it</button>
 <script>
 function myFunction() {
     var x = document.getElementById("header");
