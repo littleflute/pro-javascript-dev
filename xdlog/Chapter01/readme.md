@@ -1,4 +1,4 @@
-v0.3.1<br>
+v0.4.1<br>
 [..](..)<br>
 
 Chapter01 [Chapter02](Chapter02) [Chapter03](Chapter03) [Chapter04](Chapter05) [Chapter02](Chapter05) [Chapter06](Chapter06)    
@@ -87,4 +87,29 @@ accommodation.sharedEntrance = true;
 // Execute methods on object instances
 house.unlock();
 apartment.lock();
+```
+Listing1-4.js
+```
+// Define a constructor called Accommodation
+function Accommodation() {}
+
+// Assign properties and methods to our "class" blueprint with an object literal
+Accommodation.prototype = {
+    floors: 0,
+    rooms: 0,
+    sharedEntrance: false,
+    lock: function() {},
+    unlock: function() {}
+};
+
+// Create an object instance
+var house = new Accommodation();
+
+// Dynamically add a new method to the "class" prototype
+Accommodation.prototype.alarm = function() {};
+
+// The existing object instance gains the new method automatically
+house.alarm();
+```
+
 ```
