@@ -1,4 +1,4 @@
-v0.6.1<br>
+v0.6.2<br>
 [..](..)<br>
 
 Chapter01 [Chapter02](Chapter02) [Chapter03](Chapter03) [Chapter04](Chapter05) [Chapter02](Chapter05) [Chapter06](Chapter06)    
@@ -6,7 +6,7 @@ Chapter01 [Chapter02](Chapter02) [Chapter03](Chapter03) [Chapter04](Chapter05) [
 
 <style>
 span.highlight {
-    background-color: yellow;
+    background-color: blue;
 }
 </style>
 
@@ -96,7 +96,7 @@ house.unlock();
 apartment.lock();
 ```
 Listing1-4.js
-```
+```js
 // Define a constructor called Accommodation
 function Accommodation() {}
 
@@ -119,7 +119,7 @@ Accommodation.prototype.alarm = function() {};
 house.alarm();
 ```
 <div style="border:1px red solid;">Listing1-5.js</div>
-```
+```js
 // Variable declared outside of any function is in global scope and available to access anywhere
 var myLibrary = {
     myName: "Dennis"
