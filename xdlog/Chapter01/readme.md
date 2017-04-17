@@ -1,4 +1,4 @@
-v2.6.2<br>
+v2.6.3<br>
 [..](..)<br>
 
 Chapter01 [Chapter02](Chapter02) [Chapter03](Chapter03) [Chapter04](Chapter05) [Chapter02](Chapter05) [Chapter06](Chapter06)    
@@ -188,7 +188,7 @@ function myFunction() {
     x.getElementsByClassName("fork")[0].style.border = "1px solid red";
     
     var y = document.getElementByID("title");
-    v.getElementsByTagName("H1")[0].innerHTML = "Chapter01";
+    y.getElementsByTagName("H1")[0].innerHTML = "Chapter01";
 }
 myFunction();
 </script>
