@@ -1,4 +1,4 @@
-v2.6.3<br>
+v2.6.4<br>
 [..](..)<br>
 
 Chapter01 [Chapter02](Chapter02) [Chapter03](Chapter03) [Chapter04](Chapter05) [Chapter02](Chapter05) [Chapter06](Chapter06)    
@@ -184,7 +184,7 @@ alert(house.isLocked); // true
 <script>
 function myFunction() {
     var x = document.getElementById("header");
-    x.getElementsByClassName("fork")[0].style.backgroundColor = "black";
+    x.getElementsByClassName("fork")[0].style.backgroundColor = "yellow";
     x.getElementsByClassName("fork")[0].style.border = "1px solid red";
     
     var y = document.getElementByID("title");
